@@ -1,0 +1,334 @@
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background: #f7fafd;
+  color: #222;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.leftControls,
+.rightControls {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.controls button {
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #bcd0ea;
+  background: #eaf3fb;
+  color: #1a2a3a;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.controls button:hover {
+  background: #d2e6fa;
+  color: #007bff;
+}
+
+.formContainer {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f4faff;
+  border-radius: 5px;
+  border: 1px solid #e3eaf3;
+}
+
+.formContainer input {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #bcd0ea;
+  border-radius: 4px;
+  background: #fff;
+  color: #222;
+}
+
+.formContainer button {
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #bcd0ea;
+  background: #4da3ff;
+  color: white;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.formContainer button:last-child {
+  background: #b0b8c1;
+}
+
+.formContainer button:hover {
+  opacity: 0.95;
+  background: #007bff;
+}
+
+.fullWidth {
+  margin-top: 24px;
+  max-width: 100%;
+  transition: max-width 0.3s ease;
+}
+
+.fixedWidth {
+  margin-top: 24px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: max-width 0.3s ease;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.count {
+  font-size: 16px;
+  color: #4a6fa1;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #bcd0ea;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  background: #fff;
+  color: #222;
+}
+
+.tableContainer {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(100, 160, 255, 0.08);
+}
+
+.table th,
+.table td {
+  padding: 12px 8px;
+  text-align: left;
+  border: 1px solid #e3eaf3;
+}
+
+.table th {
+  background: #eaf3fb;
+  font-weight: bold;
+  user-select: none;
+  color: #1a2a3a;
+}
+
+.table tr:nth-child(odd) {
+  background: #f7fafd;
+}
+
+.table tr:nth-child(even) {
+  background: #e3eaf3;
+}
+
+.editable {
+  background-color: #fff !important;
+  cursor: text;
+  transition: background 0.2s;
+}
+
+.editable:focus {
+  outline: 2px solid #4da3ff;
+  outline-offset: -2px;
+  background-color: #eaf3fb !important;
+}
+
+.actionCell {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@media (max-width: 600px) {
+  .actionCell {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.actionBtn {
+  background: #4da3ff;
+  color: #fff;
+  border: none;
+  padding: 6px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(100, 160, 255, 0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+
+.actionBtn:hover {
+  background: #007bff;
+  box-shadow: 0 4px 16px rgba(100, 160, 255, 0.15);
+}
+
+.actionBtn.remove{
+  background: #ff6b81;
+}
+
+.actionBtn.remove:hover {
+  background: #ff3b5c;
+}
+
+.table th, .table td {
+  padding: 12px 8px;
+  text-align: left;
+  border: 1px solid #e3eaf3;
+}
+
+.table th.id, .table td.id {
+  width: 40px;
+  min-width: 40px;
+  max-width: 60px;
+}
+.table th.name, .table td.name {
+  width: 70%;
+  min-width: 200px;
+}
+.table th.category, .table td.category {
+  width: 15%;
+  min-width: 100px;
+}
+.table th.price, .table td.price {
+  width: 15%;
+  min-width: 80px;
+}
+.table th.action, .table td.action {
+  width: auto;
+  min-width: 120px;
+}
+
+.table tr {
+  transition: background 0.2s;
+}
+.table tr:hover {
+  background: #eaf3fb;
+}
+
+@media print {
+  .controls,
+  .formContainer,
+  .searchInput {
+    display: none !important;
+  }
+  
+  .actionBtn {
+    display: none !important;
+  }
+  
+  .table th:last-child,
+  .table td:last-child {
+    display: none !important;
+  }
+  
+  .editable {
+    background-color: transparent !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+  }
+  
+  .leftControls,
+  .rightControls {
+    justify-content: center;
+  }
+  
+  .formContainer {
+    flex-direction: column;
+  }
+  
+  .formContainer input,
+  .formContainer button {
+    width: 100%;
+  }
+  
+  .header {    
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .table {
+    font-size: 14px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px 4px;
+  }
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  pointer-events: all;
+}
+
+.modal {
+  background: #fff;
+  padding: 32px 24px;
+  border-radius: 8px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.15);
+  min-width: 240px;
+  text-align: center;
+}
+
+.modal button {
+  margin-top: 16px;
+  padding: 8px 24px;
+  background: #4da3ff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.bodyModalOpen, .container.modalOpen {
+  pointer-events: none;
+}
+
+.modalOverlay, .modal, .modal button {
+  pointer-events: all;
+}

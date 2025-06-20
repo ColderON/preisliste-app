@@ -1,0 +1,1304 @@
+[
+  {
+    "id": 1,
+    "category": "HOSEN",
+    "name": "Länge kürzen mit gestepptem Saum",
+    "price": 14.44
+  },
+  {
+    "id": 2,
+    "category": "HOSEN",
+    "name": "Länge kürzen mit handgenähtem Saum",
+    "price": 25
+  },
+  {
+    "id": 3,
+    "category": "HOSEN",
+    "name": "Länge kürzen mit handgenähtem Saum und Stoßband",
+    "price": 25
+  },
+  {
+    "id": 4,
+    "category": "HOSEN",
+    "name": "Länge kürzen mit Umschlag",
+    "price": 30
+  },
+  {
+    "id": 5,
+    "category": "HOSEN",
+    "name": "Länge kürzen mit handgenähtem Saum und Schlitz",
+    "price": 30
+  },
+  {
+    "id": 6,
+    "category": "HOSEN",
+    "name": "Länge kürzen mit Stoßband und Umschlag",
+    "price": 30
+  },
+  {
+    "id": 7,
+    "category": "HOSEN",
+    "name": "Länge verlängern, falsch besetzen",
+    "price": 35
+  },
+  {
+    "id": 8,
+    "category": "HOSEN",
+    "name": "Länge verlängern, falsch besetzen mit Schlitz",
+    "price": 45
+  },
+  {
+    "id": 9,
+    "category": "HOSEN",
+    "name": "Länge verlängern, falsch besetzen mit Stoßband",
+    "price": 35
+  },
+  {
+    "id": 10,
+    "category": "HOSEN",
+    "name": "Anzugshose – Bund enger/weiter",
+    "price": 25
+  },
+  {
+    "id": 11,
+    "category": "HOSEN",
+    "name": "Bund enger/weiter mit Gürtelschlaufe",
+    "price": 30
+  },
+  {
+    "id": 12,
+    "category": "HOSEN",
+    "name": "Bund hinten und Seiten enger ( an drei Nähten)",
+    "price": 45
+  },
+  {
+    "id": 13,
+    "category": "HOSEN",
+    "name": "Bund und Schritt bzw. enger",
+    "price": 45
+  },
+  {
+    "id": 14,
+    "category": "HOSEN",
+    "name": "Hüften enger (einfach ohne Bund)",
+    "price": 25
+  },
+  {
+    "id": 15,
+    "category": "HOSEN",
+    "name": "Hüften enger, mit Absteppen",
+    "price": 35
+  },
+  {
+    "id": 16,
+    "category": "HOSEN",
+    "name": "Beine enger außen und innen mit Saumberührung",
+    "price": 45
+  },
+  {
+    "id": 17,
+    "category": "HOSEN",
+    "name": "Beine enger außen und innen mit Absteppen oder mit Futter",
+    "price": 50
+  },
+  {
+    "id": 18,
+    "category": "HOSEN",
+    "name": "Neue RVS annähen",
+    "price": 25
+  },
+  {
+    "id": 19,
+    "category": "HOSEN",
+    "name": "Vorderer Teil abfuttern zzgl. Material",
+    "price": 55
+  },
+  {
+    "id": 20,
+    "category": "HOSEN",
+    "name": "Vorderer und hinterer Teil abfuttern zzgl. Mat.",
+    "price": 80
+  },
+  {
+    "id": 21,
+    "category": "HOSEN",
+    "name": "Bund tiefer einsetzen (z.B. nur hinten/nur vorne)",
+    "price": 35
+  },
+  {
+    "id": 22,
+    "category": "HOSEN",
+    "name": "Bund tiefer ringsum einsetzen",
+    "price": 55
+  },
+  {
+    "id": 23,
+    "category": "HOSEN",
+    "name": "Bund tiefer ringsum einsetzen mit Gürtelschlaufe",
+    "price": 65
+  },
+  {
+    "id": 24,
+    "category": "HOSEN",
+    "name": "Neue Gürtelschlaufe bearbeiten und annähen, je",
+    "price": 10
+  },
+  {
+    "id": 25,
+    "category": "HOSEN",
+    "name": "Am Schritt Stoff einsetzen zzgl. Mat.",
+    "price": 25
+  },
+  {
+    "id": 26,
+    "category": "HOSEN",
+    "name": "Schritt versteppen",
+    "price": 15
+  },
+  {
+    "id": 27,
+    "category": "HOSEN",
+    "name": "Keile einsetzen im Bund",
+    "price": 35
+  },
+  {
+    "id": 28,
+    "category": "HOSEN",
+    "name": "Keile einsetzen von beiden Seiten",
+    "price": 55
+  },
+  {
+    "id": 29,
+    "category": "JEANS",
+    "name": "Länge kürzen mit gestepptem Saum",
+    "price": 20
+  },
+  {
+    "id": 30,
+    "category": "JEANS",
+    "name": "Länge kürzen mit original Saum",
+    "price": 25
+  },
+  {
+    "id": 31,
+    "category": "JEANS",
+    "name": "Bund enger im Gesäß auslaufen mit Gürtelschlaufe",
+    "price": 35
+  },
+  {
+    "id": 32,
+    "category": "JEANS",
+    "name": "Bund enger mit zwei Abnäher",
+    "price": 25
+  },
+  {
+    "id": 33,
+    "category": "JEANS",
+    "name": "Bund enger in Gesäß auslaufen und mit zwei Abnäher",
+    "price": 45
+  },
+  {
+    "id": 34,
+    "category": "JEANS",
+    "name": "Hüften/Beine enger, auf 1 Seite, einfach",
+    "price": 20
+  },
+  {
+    "id": 35,
+    "category": "JEANS",
+    "name": "Hüften/Beine enger, auf 1 Seite, mit Absteppen",
+    "price": 25
+  },
+  {
+    "id": 36,
+    "category": "JEANS",
+    "name": "Beide Seiten enger",
+    "price": 35
+  },
+  {
+    "id": 37,
+    "category": "JEANS",
+    "name": "Saum wieder Absteppen",
+    "price": 10
+  },
+  {
+    "id": 38,
+    "category": "JEANS",
+    "name": "Neuer RVS annähen",
+    "price": 25
+  },
+  {
+    "id": 39,
+    "category": "JEANS",
+    "name": "Taschenbeutel kürzen und Tasche zunähen",
+    "price": 15
+  },
+  {
+    "id": 40,
+    "category": "JEANS",
+    "name": "Pro Taschenbeutel teilweise neu einsetzen",
+    "price": 20
+  },
+  {
+    "id": 41,
+    "category": "JEANS",
+    "name": "Komplett pro Taschenbeutel neu einsetzen",
+    "price": 35
+  },
+  {
+    "id": 42,
+    "category": "JEANS",
+    "name": "Einen Keil im Bund und Gesäß einsetzen",
+    "price": 35
+  },
+  {
+    "id": 43,
+    "category": "JEANS",
+    "name": "Zwei Keile im Bund seitlich einsetzten",
+    "price": 55
+  },
+  {
+    "id": 44,
+    "category": "JEANS",
+    "name": "Löcher am Gesäß steppen ( eine Seite )",
+    "price": 15
+  },
+  {
+    "id": 45,
+    "category": "JEANS",
+    "name": "Löcher am Gesäß steppen (beide Seiten)",
+    "price": 25
+  },
+  {
+    "id": 46,
+    "category": "JEANS",
+    "name": "Löcher am Knie steppen (ein Bein)",
+    "price": 18
+  },
+  {
+    "id": 47,
+    "category": "JEANS",
+    "name": "Große Löcher am Beim steppen",
+    "price": 25
+  },
+  {
+    "id": 48,
+    "category": "JEANS",
+    "name": "Löcher am Gesäßtaschen steppen (Ecken), je",
+    "price": 8
+  },
+  {
+    "id": 49,
+    "category": "SAKKO",
+    "name": "Ärmel kürzen, einfach ohne Futter",
+    "price": 35
+  },
+  {
+    "id": 50,
+    "category": "SAKKO",
+    "name": "Ärmel kürzen, einfach mit Futter",
+    "price": 45
+  },
+  {
+    "id": 51,
+    "category": "SAKKO",
+    "name": "Ärmel kürzen, neuer Schlitz bearbeiten",
+    "price": 55
+  },
+  {
+    "id": 52,
+    "category": "SAKKO",
+    "name": "Knopflöcher am Ärmel neue bearbeiten – je",
+    "price": 5
+  },
+  {
+    "id": 53,
+    "category": "SAKKO",
+    "name": "Ärmel enger",
+    "price": 25
+  },
+  {
+    "id": 54,
+    "category": "SAKKO",
+    "name": "Ärmel kürzen von oben",
+    "price": 75
+  },
+  {
+    "id": 55,
+    "category": "SAKKO",
+    "name": "Ärmel kürzen von oben und Schulter enger",
+    "price": 85
+  },
+  {
+    "id": 56,
+    "category": "SAKKO",
+    "name": "Ärmel verlängern einfach",
+    "price": 50
+  },
+  {
+    "id": 57,
+    "category": "SAKKO",
+    "name": "Ärmel verlängern mit Briefumschlag, mit Futter",
+    "price": 75
+  },
+  {
+    "id": 58,
+    "category": "SAKKO",
+    "name": "Länge kürzen, eckig ohne Schlitz, ohne Futter",
+    "price": 65
+  },
+  {
+    "id": 59,
+    "category": "SAKKO",
+    "name": "Länge kürzen, mit Rundung",
+    "price": 75
+  },
+  {
+    "id": 60,
+    "category": "SAKKO",
+    "name": "Länge kürzen, mit zwei Schlitze und Rundung",
+    "price": 85
+  },
+  {
+    "id": 61,
+    "category": "SAKKO",
+    "name": "Enger nur hintere Mitte, ohne Futter",
+    "price": 30
+  },
+  {
+    "id": 62,
+    "category": "SAKKO",
+    "name": "Enger nur hintere Mitte, mit Futter",
+    "price": 40
+  },
+  {
+    "id": 63,
+    "category": "SAKKO",
+    "name": "Seite enger am Rückenteil ( zwei Nähte )",
+    "price": 45
+  },
+  {
+    "id": 64,
+    "category": "SAKKO",
+    "name": "Seite enger mit Ärmel Berührung",
+    "price": 55
+  },
+  {
+    "id": 65,
+    "category": "SAKKO",
+    "name": "Seite enger mit Ärmel Berührung und Saum",
+    "price": 65
+  },
+  {
+    "id": 66,
+    "category": "SAKKO",
+    "name": "Seite und hintere Mitte enger ohne Futter(drei Nähten)",
+    "price": 55
+  },
+  {
+    "id": 67,
+    "category": "SAKKO",
+    "name": "Seite und hintere Mitte enger mit Futter (drei Nähten)",
+    "price": 65
+  },
+  {
+    "id": 68,
+    "category": "SAKKO",
+    "name": "Seite und Mitte enger mit Futter (drei Nähten) bis unten",
+    "price": 70
+  },
+  {
+    "id": 69,
+    "category": "SAKKO",
+    "name": "Nackenfalte bearbeiten",
+    "price": 45
+  },
+  {
+    "id": 70,
+    "category": "SAKKO",
+    "name": "Nackenfalte mit Schulternaht Abänderung",
+    "price": 55
+  },
+  {
+    "id": 71,
+    "category": "SAKKO",
+    "name": "Schulter schmäler, Ärmel nach oben annähen",
+    "price": 80
+  },
+  {
+    "id": 72,
+    "category": "SAKKO",
+    "name": "2x Ellenbogen Schutz annähen mit Futter",
+    "price": 45
+  },
+  {
+    "id": 73,
+    "category": "SAKKO",
+    "name": "Sakko abfuttern mit Schlitze (ohne Taschen)",
+    "price": 120
+  },
+  {
+    "id": 74,
+    "category": "SAKKO",
+    "name": "Mit zwei Schlitze abfuttern, (ohne Taschen)",
+    "price": 140
+  },
+  {
+    "id": 75,
+    "category": "WESTE (Herren)",
+    "name": "Weste Seiten enger",
+    "price": 55
+  },
+  {
+    "id": 76,
+    "category": "WESTE (Herren)",
+    "name": "Weste abfuttern, zzgl. Material (ohne Taschen)",
+    "price": 85
+  },
+  {
+    "id": 77,
+    "category": "WESTE (Herren)",
+    "name": "Jede Tasche am Futter bearbeiten",
+    "price": 30
+  },
+  {
+    "id": 78,
+    "category": "WESTE (Herren)",
+    "name": "Jede Tasche mit RVS bearbeiten",
+    "price": 40
+  },
+  {
+    "id": 79,
+    "category": "DAMEN BLAZER",
+    "name": "Ärmel kürzen, einfach ohne Futter",
+    "price": 35
+  },
+  {
+    "id": 80,
+    "category": "DAMEN BLAZER",
+    "name": "Ärmel kürzen, einfach mit Futter",
+    "price": 45
+  },
+  {
+    "id": 81,
+    "category": "DAMEN BLAZER",
+    "name": "Ärmel kürzen mit einfachem Schlitz",
+    "price": 50
+  },
+  {
+    "id": 82,
+    "category": "DAMEN BLAZER",
+    "name": "Ärmel kürzen mit Schlitz und Knöpfe",
+    "price": 55
+  },
+  {
+    "id": 83,
+    "category": "DAMEN BLAZER",
+    "name": "Ärmel kürzen mit Schlitz und wieder Knopflöcher einarbeiten, mit Briefecken",
+    "price": 75
+  },
+  {
+    "id": 84,
+    "category": "DAMEN BLAZER",
+    "name": "Ärmel enger",
+    "price": 25
+  },
+  {
+    "id": 85,
+    "category": "DAMEN BLAZER",
+    "name": "Ärmel kürzen von oben",
+    "price": 75
+  },
+  {
+    "id": 86,
+    "category": "DAMEN BLAZER",
+    "name": "Ärmel verlängern mit Knopflöchern mit Futter",
+    "price": 75
+  },
+  {
+    "id": 87,
+    "category": "DAMEN BLAZER",
+    "name": "Länge kürzen, eckig ohne Schlitz, ohne Futter",
+    "price": 55
+  },
+  {
+    "id": 88,
+    "category": "DAMEN BLAZER",
+    "name": "Länge kürzen, mit Rundung",
+    "price": 65
+  },
+  {
+    "id": 89,
+    "category": "DAMEN BLAZER",
+    "name": "Länge kürzen, mit Schlitz und Rundung",
+    "price": 75
+  },
+  {
+    "id": 90,
+    "category": "DAMEN BLAZER",
+    "name": "Länge kürzen, mit zwei Schlitz und Rundung",
+    "price": 80
+  },
+  {
+    "id": 91,
+    "category": "DAMEN BLAZER",
+    "name": "Enger nur hintere Mitte, ohne Futter",
+    "price": 35
+  },
+  {
+    "id": 92,
+    "category": "DAMEN BLAZER",
+    "name": "Enger nur hintere Mitte, mit Futter",
+    "price": 45
+  },
+  {
+    "id": 93,
+    "category": "DAMEN BLAZER",
+    "name": "Seite enger am Rückenteil ( zwei Nähte )",
+    "price": 45
+  },
+  {
+    "id": 94,
+    "category": "DAMEN BLAZER",
+    "name": "Seite enger mit Ärmel Berührung",
+    "price": 55
+  },
+  {
+    "id": 95,
+    "category": "DAMEN BLAZER",
+    "name": "Seite enger mit Ärmel Berührung bis unten",
+    "price": 65
+  },
+  {
+    "id": 96,
+    "category": "DAMEN BLAZER",
+    "name": "Seite und hintere Mitte enger ohne Futter (drei Nähte)",
+    "price": 55
+  },
+  {
+    "id": 97,
+    "category": "DAMEN BLAZER",
+    "name": "Seite und hintere Mitte enger mit Futter (drei Nähten)",
+    "price": 65
+  },
+  {
+    "id": 98,
+    "category": "DAMEN BLAZER",
+    "name": "Seite, vorne und hintere Mitte enger (an fünf Nähten )",
+    "price": 85
+  },
+  {
+    "id": 99,
+    "category": "DAMEN BLAZER",
+    "name": "Nackenfalte am Kragen bearbeiten",
+    "price": 45
+  },
+  {
+    "id": 100,
+    "category": "DAMEN BLAZER",
+    "name": "Nackenfalte mit Schulternaht Abänderung",
+    "price": 55
+  },
+  {
+    "id": 101,
+    "category": "DAMEN BLAZER",
+    "name": "Schulter schmälern",
+    "price": 55
+  },
+  {
+    "id": 102,
+    "category": "DAMEN BLAZER",
+    "name": "Ärmelkugel glatt, falten oder eingekräuselter Weg",
+    "price": 60
+  },
+  {
+    "id": 103,
+    "category": "DAMEN BLAZER",
+    "name": "2x Ellenbogen Schutz annähen mit Futter",
+    "price": 45
+  },
+  {
+    "id": 104,
+    "category": "DAMEN BLAZER",
+    "name": "Blazer abfuttern ohne Taschen zzgl. Material",
+    "price": 120
+  },
+  {
+    "id": 105,
+    "category": "DAMEN BLAZER",
+    "name": "Jede Tasche am Futter bearbeiten",
+    "price": 30
+  },
+  {
+    "id": 106,
+    "category": "DAMEN BLAZER",
+    "name": "Jede Tasche am Ftter mit RVS bearbeiten",
+    "price": 40
+  },
+  {
+    "id": 107,
+    "category": "Weste Damen",
+    "name": "Seiten enger",
+    "price": 55
+  },
+  {
+    "id": 108,
+    "category": "Weste Damen",
+    "name": "Schulter schmäler",
+    "price": 45
+  },
+  {
+    "id": 109,
+    "category": "Weste Damen",
+    "name": "Abnäher neu bearbeiten mit Futter",
+    "price": 55
+  },
+  {
+    "id": 110,
+    "category": "MANTEL, JACKE, ANORAK, SPORTJACKE",
+    "name": "Ärmel kürzen mit Schlitz",
+    "price": 65
+  },
+  {
+    "id": 111,
+    "category": "MANTEL, JACKE, ANORAK, SPORTJACKE",
+    "name": "Ärmel kürzen mit angesetztem Manschette",
+    "price": 55
+  },
+  {
+    "id": 112,
+    "category": "MANTEL, JACKE, ANORAK, SPORTJACKE",
+    "name": "Ärmel kürzen mit Gummizug",
+    "price": 45
+  },
+  {
+    "id": 113,
+    "category": "MANTEL, JACKE, ANORAK, SPORTJACKE",
+    "name": "Ärmel kürzen mit Manschette und Schlitz",
+    "price": 65
+  },
+  {
+    "id": 114,
+    "category": "MANTEL, JACKE, ANORAK, SPORTJACKE",
+    "name": "Mantel abfuttern ohne Taschen",
+    "price": 140
+  },
+  {
+    "id": 115,
+    "category": "MANTEL, JACKE, ANORAK, SPORTJACKE",
+    "name": "Einmal Tasche wieder einarbeiten",
+    "price": 30
+  },
+  {
+    "id": 116,
+    "category": "MANTEL, JACKE, ANORAK, SPORTJACKE",
+    "name": "Tasche mit RVS bearbeiten",
+    "price": 35
+  },
+  {
+    "id": 117,
+    "category": "ROCK, KLEID",
+    "name": "Länge kürzen mit gestepptem Saum",
+    "price": 45
+  },
+  {
+    "id": 118,
+    "category": "ROCK, KLEID",
+    "name": "Länge kürzen mit gestepptem Saum und Schlitz",
+    "price": 55
+  },
+  {
+    "id": 119,
+    "category": "ROCK, KLEID",
+    "name": "Länge kürzen mit handgenähtem Saum",
+    "price": 55
+  },
+  {
+    "id": 120,
+    "category": "ROCK, KLEID",
+    "name": "Länge kürzen mit handgenähtem Saum und Schlitz",
+    "price": 55
+  },
+  {
+    "id": 121,
+    "category": "ROCK, KLEID",
+    "name": "Länge kürzen mit Futter",
+    "price": 65
+  },
+  {
+    "id": 122,
+    "category": "ROCK, KLEID",
+    "name": "Länge kürzen mit Falten",
+    "price": 65
+  },
+  {
+    "id": 123,
+    "category": "ROCK, KLEID",
+    "name": "Faltenrock kürzen (Plissee)",
+    "price": 65
+  },
+  {
+    "id": 124,
+    "category": "ROCK, KLEID",
+    "name": "Länge verlängern, falsch besetzen",
+    "price": 65
+  },
+  {
+    "id": 125,
+    "category": "ROCK, KLEID",
+    "name": "Bund seitlich enger oder weiter",
+    "price": 45
+  },
+  {
+    "id": 126,
+    "category": "ROCK, KLEID",
+    "name": "Bund seitlich enger oder weiter mit RVS",
+    "price": 55
+  },
+  {
+    "id": 127,
+    "category": "ROCK, KLEID",
+    "name": "Bund seitlich enger oder weiter mit Saumberührung",
+    "price": 55
+  },
+  {
+    "id": 128,
+    "category": "ROCK, KLEID",
+    "name": "Bund weiter mit Stoff einsetzen (1xKeile)",
+    "price": 45
+  },
+  {
+    "id": 129,
+    "category": "ROCK, KLEID",
+    "name": "Bund weiter mit Stoff einsetzen (zwei Keile )",
+    "price": 55
+  },
+  {
+    "id": 130,
+    "category": "ROCK, KLEID",
+    "name": "Bund einseitig heben (tiefer)",
+    "price": 30
+  },
+  {
+    "id": 131,
+    "category": "ROCK, KLEID",
+    "name": "Bund ringsum heben (tiefer)",
+    "price": 45
+  },
+  {
+    "id": 132,
+    "category": "ROCK, KLEID",
+    "name": "Bund ringsum heben (tiefer) mit Gürtelschlaufe",
+    "price": 55
+  },
+  {
+    "id": 133,
+    "category": "ROCK, KLEID",
+    "name": "Faltenrock enger oder weiter (an den Falten)",
+    "price": 45
+  },
+  {
+    "id": 134,
+    "category": "ROCK, KLEID",
+    "name": "Faltenrock enger (eine oder mehrere Falten, einfach)",
+    "price": 55
+  },
+  {
+    "id": 135,
+    "category": "ROCK, KLEID",
+    "name": "Neu abfuttern, zzgl. Material",
+    "price": 65
+  },
+  {
+    "id": 136,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Ärmel kürzen einfach, mit gestepptem Saum",
+    "price": 25
+  },
+  {
+    "id": 137,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Ärmel kürzen mit falschem Umschlag",
+    "price": 35
+  },
+  {
+    "id": 138,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Ärmel kürzen mit Handsaum",
+    "price": 35
+  },
+  {
+    "id": 139,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Ärmel kürzen, nur Manschette nach oben einsetzen",
+    "price": 25
+  },
+  {
+    "id": 140,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Ärmel kürzen mit Schlitz und Bündchen",
+    "price": 35
+  },
+  {
+    "id": 141,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Ärmel kürzen von oben",
+    "price": 45
+  },
+  {
+    "id": 142,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Ärmelkugel ohne Falten, glatt",
+    "price": 45
+  },
+  {
+    "id": 143,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Ärmel kürzen, als kurze Ärmel",
+    "price": 30
+  },
+  {
+    "id": 144,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Schulter schmälern",
+    "price": 45
+  },
+  {
+    "id": 145,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Seiten mit Ärmel enger",
+    "price": 35
+  },
+  {
+    "id": 146,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "2x Taillenabnäher neu einarbeiten (vorne oder hinten)",
+    "price": 25
+  },
+  {
+    "id": 147,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "2x Taillenabnäher tiefer setzen",
+    "price": 15
+  },
+  {
+    "id": 148,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "2x Taillenabnäher tiefer setzen mit Saum",
+    "price": 20
+  },
+  {
+    "id": 149,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Hemd, Länge kürzen, gerade",
+    "price": 25
+  },
+  {
+    "id": 150,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Hemd, Länge kürzen, mit Rundung",
+    "price": 30
+  },
+  {
+    "id": 151,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Hemd, Länge kürzen, mit Schlitz / mit Ecken, Logo",
+    "price": 35
+  },
+  {
+    "id": 152,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Hemd, Länge kürzen, aus Seidenstoff/Chiffon, oder ähnliches",
+    "price": 45
+  },
+  {
+    "id": 153,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Polster annähen (zzgl. Polster)",
+    "price": 15
+  },
+  {
+    "id": 154,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Bluse, Kleid, verdeckter RVS an der Seite",
+    "price": 35
+  },
+  {
+    "id": 155,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Bluse, Kleid, verdeckter RVS an der Seite mit Futter",
+    "price": 45
+  },
+  {
+    "id": 156,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Kragen bearbeiten als Stehkragen",
+    "price": 25
+  },
+  {
+    "id": 157,
+    "category": "KLEID, BLUSE, HEMD",
+    "name": "Kragen erneuern/umdrehen",
+    "price": 45
+  },
+  {
+    "id": 158,
+    "category": "STRICKBEKLEIDUNG",
+    "name": "Ärmel kürzen- Saum unmähen mit Zwillingsnaht",
+    "price": 25
+  },
+  {
+    "id": 159,
+    "category": "STRICKBEKLEIDUNG",
+    "name": "Ärmel kürzen- mit original Bündchen in Naht angesetzt",
+    "price": 30
+  },
+  {
+    "id": 160,
+    "category": "STRICKBEKLEIDUNG",
+    "name": "Ärmel kürzen und enger",
+    "price": 30
+  },
+  {
+    "id": 161,
+    "category": "STRICKBEKLEIDUNG",
+    "name": "Ärmel kürzen von Hand anstricken",
+    "price": 40
+  },
+  {
+    "id": 162,
+    "category": "STRICKBEKLEIDUNG",
+    "name": "Ärmel kürzen von oben",
+    "price": 45
+  },
+  {
+    "id": 163,
+    "category": "STRICKBEKLEIDUNG",
+    "name": "2x Ellenbogen Schutz annähen (inkl. Material)",
+    "price": 25
+  },
+  {
+    "id": 164,
+    "category": "STRICKBEKLEIDUNG",
+    "name": "Länge kürzen mit Zwillingsnaht",
+    "price": 25
+  },
+  {
+    "id": 165,
+    "category": "STRICKBEKLEIDUNG",
+    "name": "Länge kürzen mit Schlitz(Polo)",
+    "price": 45
+  },
+  {
+    "id": 166,
+    "category": "STRICKBEKLEIDUNG",
+    "name": "Länge kürzen von Hand anstricken",
+    "price": 55
+  },
+  {
+    "id": 167,
+    "category": "STRICKBEKLEIDUNG",
+    "name": "Seite enger",
+    "price": 25
+  },
+  {
+    "id": 168,
+    "category": "STRICKBEKLEIDUNG",
+    "name": "Seite und Ärmel enger",
+    "price": 35
+  },
+  {
+    "id": 169,
+    "category": "STRICKBEKLEIDUNG",
+    "name": "Loch, Masche bei Strickkleidung verbessern, je nach Loch",
+    "price": 4
+  },
+  {
+    "id": 170,
+    "category": "STRICKROCK",
+    "name": "Länge kürzen mit Zwillingsnaht (eng/breit)",
+    "price": 35
+  },
+  {
+    "id": 171,
+    "category": "STRICKROCK",
+    "name": "Länge kürzen von oben, am Bund",
+    "price": 45
+  },
+  {
+    "id": 172,
+    "category": "STRICKROCK",
+    "name": "Länge kürzen von oben, am Bund, mit Futter",
+    "price": 55
+  },
+  {
+    "id": 173,
+    "category": "STRICKROCK",
+    "name": "Seite enger, ab Hüfte, nach unten",
+    "price": 25
+  },
+  {
+    "id": 174,
+    "category": "STRICKROCK",
+    "name": "Bund und Seite enger",
+    "price": 45
+  },
+  {
+    "id": 175,
+    "category": "STRICKROCK",
+    "name": "Im Bund Gummi enger, weiter",
+    "price": 25
+  },
+  {
+    "id": 176,
+    "category": "STRICKROCK",
+    "name": "Im Bund neuen Gummi einsetzt zzgl. Material",
+    "price": 10
+  },
+  {
+    "id": 177,
+    "category": "STRICKHOSE, LEGGINS",
+    "name": "Länge kürzen mit Zwillingsnaht",
+    "price": 25
+  },
+  {
+    "id": 178,
+    "category": "STRICKHOSE, LEGGINS",
+    "name": "Länge kürzen mit Bündchen",
+    "price": 25
+  },
+  {
+    "id": 179,
+    "category": "LEDER HOSE",
+    "name": "Kürzen, nur abschneiden",
+    "price": 20
+  },
+  {
+    "id": 180,
+    "category": "LEDER HOSE",
+    "name": "Kürzen mit Klebstoff oder Flieseline",
+    "price": 35
+  },
+  {
+    "id": 181,
+    "category": "LEDER HOSE",
+    "name": "Kürzen mit Klebstoff oder Flieseline mit Futter",
+    "price": 45
+  },
+  {
+    "id": 182,
+    "category": "LEDER HOSE",
+    "name": "Kürzen mit Schlitze",
+    "price": 45
+  },
+  {
+    "id": 183,
+    "category": "LEDER HOSE",
+    "name": "Kürzen mit Futter, mit gekürztem RVS",
+    "price": 55
+  },
+  {
+    "id": 184,
+    "category": "LEDER HOSE",
+    "name": "Bund enger, am Gesäß Abnäher bearbeiten",
+    "price": 55
+  },
+  {
+    "id": 185,
+    "category": "LEDER HOSE",
+    "name": "Bund enger, am Gesäß auslaufen abgesteppt, mit Futter, Schlaufen",
+    "price": 65
+  },
+  {
+    "id": 186,
+    "category": "LEDER HOSE",
+    "name": "Neuer RVS, zzgl. RVS",
+    "price": 40
+  },
+  {
+    "id": 187,
+    "category": "LEDER HOSE",
+    "name": "Neuer PVS mit Futter, zzgl. RVS",
+    "price": 55
+  },
+  {
+    "id": 188,
+    "category": "LEDER HOSE",
+    "name": "Seitlich enger",
+    "price": 55
+  },
+  {
+    "id": 189,
+    "category": "LEDER HOSE",
+    "name": "Seitlich weiter, mit Keile einsetzen",
+    "price": 75
+  },
+  {
+    "id": 190,
+    "category": "LEDER HOSE",
+    "name": "Am Bund weiter, mit Keile einsetzen",
+    "price": 55
+  },
+  {
+    "id": 191,
+    "category": "LEDER HOSE",
+    "name": "Taschenbeutel weg und Tasche zunähen",
+    "price": 25
+  },
+  {
+    "id": 192,
+    "category": "LEDER HOSE",
+    "name": "Neu abfuttern, zzgl. Futter",
+    "price": 140
+  },
+  {
+    "id": 193,
+    "category": "LEDER ROCK",
+    "name": "Kürzen mit Futter",
+    "price": 55
+  },
+  {
+    "id": 194,
+    "category": "LEDER ROCK",
+    "name": "Kürzen mit Futter und Schlitz",
+    "price": 65
+  },
+  {
+    "id": 195,
+    "category": "LEDER ROCK",
+    "name": "Neuer RVS, zzgl. Mat.",
+    "price": 45
+  },
+  {
+    "id": 196,
+    "category": "LEDER ROCK",
+    "name": "Neuer RVS mit Futter zzgl. Mat.",
+    "price": 55
+  },
+  {
+    "id": 197,
+    "category": "LEDER ROCK",
+    "name": "Neu abfuttern, zzgl. Mat.",
+    "price": 85
+  },
+  {
+    "id": 198,
+    "category": "LEDER MANTEL, SAKKO, JACKE",
+    "name": "Mantel, Länge kürzen",
+    "price": 80
+  },
+  {
+    "id": 199,
+    "category": "LEDER MANTEL, SAKKO, JACKE",
+    "name": "Sakko, Jacke, Länge kürzen mit Futter, Schlitz, absteppen",
+    "price": 95
+  },
+  {
+    "id": 200,
+    "category": "LEDER MANTEL, SAKKO, JACKE",
+    "name": "Seitlich enger bis unten",
+    "price": 75
+  },
+  {
+    "id": 201,
+    "category": "LEDER MANTEL, SAKKO, JACKE",
+    "name": "Seitlich enger bis unten mit Ärmelberührung",
+    "price": 85
+  },
+  {
+    "id": 202,
+    "category": "LEDER MANTEL, SAKKO, JACKE",
+    "name": "Nacken Falten hinten weg",
+    "price": 65
+  },
+  {
+    "id": 203,
+    "category": "LEDER MANTEL, SAKKO, JACKE",
+    "name": "Ärmel kürzen, einfach/gesteppt (ohne Futter)",
+    "price": 45
+  },
+  {
+    "id": 204,
+    "category": "LEDER MANTEL, SAKKO, JACKE",
+    "name": "Ärmel kürzen, einfach/gesteppt (mit Futter)",
+    "price": 55
+  },
+  {
+    "id": 205,
+    "category": "LEDER MANTEL, SAKKO, JACKE",
+    "name": "Ärmel kürzen mit Schlitz (ohne Knöpfe)",
+    "price": 65
+  },
+  {
+    "id": 206,
+    "category": "LEDER MANTEL, SAKKO, JACKE",
+    "name": "Ärmel kürzen, nur Manjette umsetzen",
+    "price": 55
+  },
+  {
+    "id": 207,
+    "category": "LEDER MANTEL, SAKKO, JACKE",
+    "name": "Ärmel kürzen von oben, gesteppt",
+    "price": 85
+  },
+  {
+    "id": 208,
+    "category": "LEDER MANTEL, SAKKO, JACKE",
+    "name": "Neu abfuttern, zzgl. Mat. Ohne Futtertaschen",
+    "price": 180
+  },
+  {
+    "id": 209,
+    "category": "LEDER SAKKO",
+    "name": "Ärmel kürzen von unten",
+    "price": 55
+  },
+  {
+    "id": 210,
+    "category": "LEDER SAKKO",
+    "name": "Ärmel kürzen von oben",
+    "price": 65
+  },
+  {
+    "id": 211,
+    "category": "LEDERHEMD",
+    "name": "Länge kürzen",
+    "price": 25
+  },
+  {
+    "id": 212,
+    "category": "LEDERHEMD",
+    "name": "Ärmel kürzen, nur Manschette einsetzen",
+    "price": 20
+  },
+  {
+    "id": 213,
+    "category": "LEDERHEMD",
+    "name": "Ärmel kürzen mit Manschette und Leiste",
+    "price": 35
+  },
+  {
+    "id": 214,
+    "category": "LEDERHEMD",
+    "name": "Rücken enger",
+    "price": 25
+  },
+  {
+    "id": 215,
+    "category": "LEDERHEMD",
+    "name": "Abnäher tiefer",
+    "price": 15
+  },
+  {
+    "id": 216,
+    "category": "VORHÄNGE",
+    "name": "Vorhänge kürzen (Berechnung pro laufenden Meter)",
+    "price": 15
+  },
+  {
+    "id": 217,
+    "category": "VORHÄNGE",
+    "name": "Neuanfertigung (Berechnung pro laufenden Meter)",
+    "price": 10
+  }
+]

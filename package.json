@@ -1,0 +1,60 @@
+{
+  "name": "preisliste-desktop",
+  "version": "1.0.0",
+  "description": "Desktop application for TL-Schneiderei",
+  "main": "public/electron.js",
+  "homepage": "./",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "dist": "npm run build && electron-builder",
+    "electron": "electron .",
+    "electron-dev": "concurrently \"npm run dev\" \"wait-on http://localhost:3000 && cross-env NODE_ENV=development electron .\"",
+    "electron-prod": "npm run build && concurrently \"npm run start\" \"wait-on http://localhost:3000 && cross-env NODE_ENV=production electron .\""
+  },
+  "build": {
+    "appId": "com.preisliste.desktop",
+    "productName": "Preisliste Manager",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "node_modules/**/*",
+      "public/electron.js",
+      "public/preload.js",
+      ".next/**/*",
+      "public/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "public/icon.ico"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "public/icon.png",
+      "category": "Utility"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "public/icon.icns"
+    },
+    "nsis": {
+      "oneClick": false
+    }
+  },
+  "dependencies": {
+    "cross-spawn": "^7.0.6",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "wait-on": "latest"
+  },
+  "devDependencies": {
+    "concurrently": "latest",
+    "cross-env": "latest",
+    "electron": "latest",
+    "electron-builder": "latest"
+  }
+}
