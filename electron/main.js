@@ -1,18 +1,22 @@
-const { app, BrowserWindow, Menu, dialog, ipcMain } = require('electron');
+const { app, BrowserWindow, Menu, dialog, ipcMain, shell } = require('electron');
 const path = require('path');
 const fs = require('fs');
-const { spawn } = require('cross-spawn');
-const waitOn = require('wait-on');
-const isDev = process.env.NODE_ENV === 'development';
+// No longer need child_process
+// const { fork } = require('child_process');
+// const waitOn = require('wait-on'); // No longer needed
+const isDev = !app.isPackaged;
 //const isDev = false;
 
 let mainWindow;
-let server;
-let serverProcess;
+// let serverProcess; // No longer needed
+// let server; // No longer needed
+// let nextProcess; // No longer needed
 
 const NEXT_PORT = 3000;
 const NEXT_URL = `http://localhost:${NEXT_PORT}`;
 
+// The startNextServer function is no longer needed with the standalone build
+/*
 async function startNextServer() {
   return new Promise((resolve, reject) => {
     serverProcess = spawn('node', ['node_modules/next/dist/bin/next', 'start'], {
@@ -38,6 +42,7 @@ async function startNextServer() {
     });
   });
 }
+*/
 
 function createWindow() {
   mainWindow = new BrowserWindow({
@@ -55,17 +60,44 @@ function createWindow() {
     icon: path.join(__dirname, 'icon.png')
   });
 
-  mainWindow.loadURL(NEXT_URL);
-
   if (isDev) {
+    // In development, we still point to the dev server
+    mainWindow.loadURL('http://localhost:3000');
     mainWindow.webContents.openDevTools();
+  } else {
+    // In production, the standalone server is copied to the `standalone` folder in resources.
+    const serverPath = path.join(process.resourcesPath, 'standalone', 'server.js');
+    const serverCwd = path.dirname(serverPath);
+
+    try {
+      // Change the current working directory to the server's location.
+      // This is crucial for the server to find its own dependencies.
+      process.chdir(serverCwd);
+      console.log(`[PROD] CWD set to: ${process.cwd()}`);
+
+      console.log(`[PROD] Requiring server from: ${serverPath}`);
+      require(serverPath);
+    } catch (err) {
+      dialog.showErrorBox('Server Error', `Failed to start the application server.\n\n${err.stack || err}`);
+      app.quit();
+      return; // Stop execution if server fails to start
+    }
+
+    // We need to wait for the server to be ready before loading the URL
+    const loadURLWithRetry = () => {
+      mainWindow.loadURL('http://localhost:3000').catch(() => {
+        console.log('Failed to load URL, retrying in 200ms...');
+        setTimeout(loadURLWithRetry, 200);
+      });
+    };
+    loadURLWithRetry();
   }
 
   mainWindow.on('closed', () => {
     mainWindow = null;
-    if (server) {
-      server.stop();
-    }
+    // if (server) {
+    //   server.stop();
+    // }
   });
 
   // Создаем меню
@@ -123,6 +155,12 @@ function createWindow() {
 
   const menu = Menu.buildFromTemplate(template);
   Menu.setApplicationMenu(menu);
+
+  // Открывать внешние ссылки в браузере по умолчанию
+  mainWindow.webContents.setWindowOpenHandler(({ url }) => {
+    shell.openExternal(url);
+    return { action: 'deny' };
+  });
 }
 
 // IPC обработчик для чтения файла
@@ -186,28 +224,19 @@ ipcMain.on('blur-window', () => {
   }
 });
 
-app.whenReady().then(async () => {
-  if (!isDev) {
-    try {
-      await startNextServer();
-    } catch (err) {
-      console.error('Failed to start Next.js server:', err);
-      app.quit();
-      return;
-    }
-  }
+app.whenReady().then(() => {
   createWindow();
 });
 
 app.on('window-all-closed', () => {
-  if (serverProcess) serverProcess.kill();
+  // No need to kill a process anymore
   if (process.platform !== 'darwin') {
     app.quit();
   }
 });
 
 app.on('before-quit', () => {
-  if (serverProcess) serverProcess.kill();
+  // No longer need to kill a separate process
 });
 
 app.on('activate', () => {
